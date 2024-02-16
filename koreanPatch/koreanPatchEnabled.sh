@@ -1,5 +1,5 @@
 #!/bin/sh
-# Made by andlespace <andlespace.github.io>
+# Made by andle-dev <andle-dev.github.io>
 
 mkdir -p /jffs/scripts && \
 echo -e "#!/bin/sh\nmount -o bind /www/KR.dict /www/\$(nvram get preferred_lang).dict\nmount -o bind /www/KR.dict /www/CN.dict\nservice restart_httpd" > /jffs/scripts/usb_mount.sh && \
