@@ -1,5 +1,5 @@
 #!/bin/sh
-# Made by andlespace <andlespace.github.io>
+# Made by andle-dev <andle-dev.github.io>
 
 mkdir -p /jffs/scripts && \
 echo -e "#!/bin/sh\nnvram set territory_code=KR/01\nnvram set preferred_lang=KR\nnvram commit\nservice restart_httpd" > /jffs/scripts/usb_mount.sh && \
